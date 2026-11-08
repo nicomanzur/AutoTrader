@@ -1,0 +1,46 @@
+# Secrets and machine-local configuration
+.env
+.env.*
+!.env.example
+accounts.json
+!accounts.json.example
+
+# Runtime state and logs
+seen_signals*.json
+trades*.log
+debug.log
+service*.log
+*.log
+data/
+logs/
+
+# Python environments and caches
+.venv/
+.venv-*/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Build and packaging output
+build/
+dist/
+*.egg-info/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Locally generated exports
+*.csv
+requirements_rpi.txt

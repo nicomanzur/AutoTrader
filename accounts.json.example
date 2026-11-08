@@ -1,0 +1,25 @@
+{
+  "scanner": {
+    "broker": "projectx",
+    "api_base": "https://api.topstepx.com",
+    "api_key_env": "PROJECTX_API_KEY",
+    "user_env": "PROJECTX_USER",
+    "comment": "Solo para datos de mercado"
+  },
+  "trading_accounts": [
+    {
+      "id": "projectx_main",
+      "broker": "projectx",
+      "name": "Cuenta Principal (editar account_id y habilitar)",
+      "enabled": false,
+      "api_base": "https://api.topstepx.com",
+      "api_key_env": "PROJECTX_API_KEY",
+      "user_env": "PROJECTX_USER",
+      "account_id": 0,
+      "contracts": {
+        "MNQ": 1,
+        "ES": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+requests>=2.32,<3
+pandas>=2.2,<4
+python-dotenv>=1.0,<2
+tzdata>=2024.1
